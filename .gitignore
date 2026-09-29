@@ -1,0 +1,23 @@
+node_modules
+dist
+*.tsbuildinfo
+
+# Local environment and deployment state
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Test output, caches, and logs
+coverage/
+.vite/
+.cache/
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
